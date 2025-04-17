@@ -1,23 +1,28 @@
 venv/
 tests/
 
+*.sig
+*.json
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
 
-.json
-.aux
-.bit
-.blg
-.bbl
-.lof
-.log
-.lot
-.glo
-.glx
-.gxg 
-.gxs 
-.idx 
-.ilg 
-.ind 
-.out 
-.url 
-.svn 
-.toc
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.rubbercache
+rubber.cache
